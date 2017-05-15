@@ -1,0 +1,37 @@
+{
+  "name": "bigding-tsnode-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "test": "mocha --reporter spec --compilers ts:ts-node/register 'test/**/*.test.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/body-parser": "^1.16.3",
+    "@types/cors": "^2.8.1",
+    "@types/debug": "0.0.29",
+    "@types/es6-promise": "0.0.32",
+    "@types/express": "^4.0.35",
+    "@types/morgan": "^1.7.32",
+    "@types/node": "^7.0.14",
+    "@types/request": "0.0.42",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.3.1"
+  },
+  "dependencies": {
+    "@types/request-promise-native": "^1.0.3",
+    "body-parser": "^1.17.1",
+    "cors": "^2.8.3",
+    "debug": "^2.6.6",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "request": "^2.81.0",
+    "request-promise-native": "^1.0.3"
+  }
+}
